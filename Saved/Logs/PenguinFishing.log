@@ -5800,3 +5800,1283 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.29-14.24.53:507][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.10.29-14.24.53:520][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
 [2025.10.29-14.24.53:547][796]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.10.29-14.26.15:143][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.10.29-14.26.15:156][777]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.26.15:208][777]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.26.15:209][777]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.26.15:209][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.26.15:209][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.26.15:222][777]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.26.15:223][777]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fish8FB86B48466995C2D6631DB938D01EE2.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.26.15:229][777]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.850 ms (total: 3.02 sec)
+[2025.10.29-14.26.15:291][777]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.26.15:291][777]LogContentValidation: Enabled validators:
+[2025.10.29-14.26.15:291][777]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.26.15:291][777]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.26.15:291][777]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.26.15:291][777]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.26.15:291][777]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.26.15:291][777]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.26.15:291][777]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.26.17:144][867]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.26.17:149][867]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.26.17:149][867]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.26.17:150][867]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 415 us (total: 13.153 ms)
+[2025.10.29-14.26.17:150][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.26.17:150][867]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.26.17:152][867]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.26.17:152][867]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 313 us (total: 7.688 ms)
+[2025.10.29-14.26.17:152][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002206s)
+[2025.10.29-14.26.17:152][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002238s)
+[2025.10.29-14.26.17:181][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.29-14.26.17:183][867]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.26.17:184][867]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.26.17:184][867]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.26.17:184][867]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.26.17:184][867]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.26.17:185][867]LogWorldPartition: Display: WorldPartition initialize took 594 us (total: 105.361 ms)
+[2025.10.29-14.26.17:185][867]LogPlayLevel: PIE: World Init took: (0.002322s)
+[2025.10.29-14.26.17:186][867]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.10.29-14.26.17:186][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.26.17:186][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.26.17:186][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.26.17:186][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.26.17:186][867]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.26.17:186][867]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.26.17:186][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.26.17:186][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.26.17:186][867]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.26.17:186][867]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.26.17:186][867]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.26.17:188][867]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.26.17:211][867]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.26.17:211][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.26.17:211][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.26.17:211][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.26.17:211][867]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.10.29-14.26.17:212][867]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.10.29-14.26.17:214][867]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.10.29-14.26.17:214][867]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.10.29-14.26.17:214][867]LogInit: FAudioDevice initialized with ID 24.
+[2025.10.29-14.26.17:214][867]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.26.17:214][867]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.10.29-14.26.17:217][867]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.26.17:219][867]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.26.17
+[2025.10.29-14.26.17:219][867]LogWorld: Bringing up level for play took: 0.000637
+[2025.10.29-14.26.17:221][867]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.10.29-14.26.17:226][867]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.26.17:227][867]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.26.17:227][867]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.26.17:228][867]PIE: Server logged in
+[2025.10.29-14.26.17:229][867]PIE: Play in editor total start time 0.08 seconds.
+[2025.10.29-14.26.18:810][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.26.18:810][934]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.26.18:810][934]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.26.18:810][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.26.18:810][934]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.26.18:811][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.26.18:817][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.26.18:839][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.26.18:840][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.10.29-14.26.18:840][934]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.10.29-14.26.18:842][934]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.10.29-14.26.18:849][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.29-14.26.18:931][936]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.10.29-14.26.29:502][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.29-14.26.29:515][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.26.29:557][672]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.26.29:560][672]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.26.29:560][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.26.29:560][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.26.29:572][672]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.26.29:572][672]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_FishFB0663C5420471DB52FB80916105FFA2.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.26.29:580][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.157 ms (total: 3.08 sec)
+[2025.10.29-14.26.29:641][672]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.26.29:641][672]LogContentValidation: Enabled validators:
+[2025.10.29-14.26.29:641][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.26.29:641][672]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.26.29:641][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.26.29:641][672]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.26.29:641][672]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.26.29:641][672]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.26.29:641][672]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.28.17:811][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.29-14.28.17:824][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.28.17:875][ 12]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fishing] ([2] browsable assets)...
+[2025.10.29-14.28.17:877][ 12]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fishing.W_Fishing]
+[2025.10.29-14.28.17:877][ 12]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fishing]
+[2025.10.29-14.28.17:877][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fishing" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset" SILENT=true
+[2025.10.29-14.28.17:892][ 12]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fishing
+[2025.10.29-14.28.17:893][ 12]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fishing11F01B814D5174E8142E8EA4BAF680C7.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset'
+[2025.10.29-14.28.17:900][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.673 ms (total: 3.16 sec)
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: Enabled validators:
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.28.17:943][ 12]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.28.17:943][ 12]AssetCheck: /Game/WidgetBP/W_Fishing Validating asset
+[2025.10.29-14.28.21:218][204]LogPSOHitching: Encountered 550 PSO creation hitches so far (212 graphics, 338 compute). 0 of them were precached.
+[2025.10.29-14.28.22:485][265]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.28.22:491][265]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.28.22:491][265]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.28.22:492][265]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 451 us (total: 13.605 ms)
+[2025.10.29-14.28.22:492][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.28.22:492][265]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.28.22:494][265]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.28.22:494][265]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 307 us (total: 7.995 ms)
+[2025.10.29-14.28.22:494][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002180s)
+[2025.10.29-14.28.22:494][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002211s)
+[2025.10.29-14.28.22:519][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.29-14.28.22:521][265]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.28.22:522][265]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.28.22:522][265]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.28.22:522][265]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.28.22:523][265]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.28.22:523][265]LogWorldPartition: Display: WorldPartition initialize took 598 us (total: 105.960 ms)
+[2025.10.29-14.28.22:523][265]LogPlayLevel: PIE: World Init took: (0.002488s)
+[2025.10.29-14.28.22:524][265]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.10.29-14.28.22:524][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.28.22:524][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.28.22:524][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.28.22:524][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.28.22:524][265]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.28.22:524][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.28.22:524][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.28.22:524][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.28.22:524][265]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.28.22:524][265]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.28.22:524][265]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.28.22:526][265]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.28.22:550][265]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.28.22:550][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.28.22:550][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.28.22:550][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.28.22:551][265]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.10.29-14.28.22:551][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.10.29-14.28.22:553][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.10.29-14.28.22:553][265]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.10.29-14.28.22:553][265]LogInit: FAudioDevice initialized with ID 25.
+[2025.10.29-14.28.22:553][265]LogAudio: Display: Audio Device (ID: 25) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.28.22:553][265]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.10.29-14.28.22:557][265]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.28.22:558][265]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.28.22
+[2025.10.29-14.28.22:558][265]LogWorld: Bringing up level for play took: 0.000736
+[2025.10.29-14.28.22:560][265]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.10.29-14.28.22:565][265]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.28.22:566][265]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.28.22:566][265]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.28.22:566][265]PIE: Server logged in
+[2025.10.29-14.28.22:568][265]PIE: Play in editor total start time 0.077 seconds.
+[2025.10.29-14.28.22:907][267]LogPSOHitching: Encountered 600 PSO creation hitches so far (231 graphics, 369 compute). 0 of them were precached.
+[2025.10.29-14.28.39:051][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.28.39:051][ 69]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.28.39:051][ 69]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.28.39:052][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.28.39:052][ 69]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.28.39:053][ 69]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.28.39:059][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.28.39:085][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.28.39:086][ 69]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.10.29-14.28.39:086][ 69]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2025.10.29-14.28.39:088][ 69]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2025.10.29-14.28.39:094][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.10.29-14.28.39:121][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.10.29-14.32.02:621][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.29-14.32.02:624][205]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.033
+[2025.10.29-14.32.02:624][205]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fishing] ([2] browsable assets)...
+[2025.10.29-14.32.02:626][205]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fishing.W_Fishing]
+[2025.10.29-14.32.02:626][205]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fishing]
+[2025.10.29-14.32.02:626][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fishing" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/Autosaves/Game/WidgetBP/W_Fishing_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.10.29-14.32.02:641][205]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/WidgetBP/W_Fishing_Auto1
+[2025.10.29-14.32.02:641][205]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fishing_Auto131B450E14E357FFE5EEE5A9A070257C6.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/Autosaves/Game/WidgetBP/W_Fishing_Auto1.uasset'
+[2025.10.29-14.32.02:642][205]LogFileHelpers: Auto-saving content packages took 0.018
+[2025.10.29-14.32.29:547][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.29-14.32.29:561][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.32.29:611][262]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fishing] ([2] browsable assets)...
+[2025.10.29-14.32.29:613][262]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fishing.W_Fishing]
+[2025.10.29-14.32.29:613][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fishing]
+[2025.10.29-14.32.29:613][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fishing" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset" SILENT=true
+[2025.10.29-14.32.29:628][262]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fishing
+[2025.10.29-14.32.29:629][262]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fishing114426334741F5C8C61649AC8127C7FF.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset'
+[2025.10.29-14.32.29:636][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.749 ms (total: 3.23 sec)
+[2025.10.29-14.32.29:694][262]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.32.29:694][262]LogContentValidation: Enabled validators:
+[2025.10.29-14.32.29:694][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.32.29:694][262]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.32.29:694][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.32.29:694][262]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.32.29:694][262]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.32.29:694][262]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.32.29:694][262]AssetCheck: /Game/WidgetBP/W_Fishing Validating asset
+[2025.10.29-14.32.31:173][330]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.32.31:179][330]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.32.31:179][330]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.32.31:179][330]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 436 us (total: 14.042 ms)
+[2025.10.29-14.32.31:179][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.32.31:179][330]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.32.31:181][330]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.32.31:181][330]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 309 us (total: 8.305 ms)
+[2025.10.29-14.32.31:181][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002212s)
+[2025.10.29-14.32.31:181][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002244s)
+[2025.10.29-14.32.31:210][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.29-14.32.31:212][330]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.32.31:213][330]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.32.31:213][330]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.32.31:213][330]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.32.31:213][330]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.32.31:214][330]LogWorldPartition: Display: WorldPartition initialize took 589 us (total: 106.549 ms)
+[2025.10.29-14.32.31:214][330]LogPlayLevel: PIE: World Init took: (0.002426s)
+[2025.10.29-14.32.31:215][330]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.10.29-14.32.31:215][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.32.31:215][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.32.31:215][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.32.31:215][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.32.31:215][330]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.32.31:215][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.32.31:215][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.32.31:215][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.32.31:215][330]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.32.31:215][330]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.32.31:215][330]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.32.31:217][330]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.32.31:242][330]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.32.31:242][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.32.31:242][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.32.31:242][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.32.31:242][330]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.10.29-14.32.31:242][330]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2025.10.29-14.32.31:245][330]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.10.29-14.32.31:245][330]LogInit: FAudioDevice initialized with ID 26.
+[2025.10.29-14.32.31:245][330]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2025.10.29-14.32.31:245][330]LogAudio: Display: Audio Device (ID: 26) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.32.31:245][330]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.10.29-14.32.31:248][330]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.32.31:249][330]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.32.31
+[2025.10.29-14.32.31:249][330]LogWorld: Bringing up level for play took: 0.000720
+[2025.10.29-14.32.31:252][330]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.10.29-14.32.31:257][330]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.32.31:264][330]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.32.31:264][330]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.32.31:265][330]PIE: Server logged in
+[2025.10.29-14.32.31:266][330]PIE: Play in editor total start time 0.088 seconds.
+[2025.10.29-14.32.31:489][331]LogPSOHitching: Encountered 650 PSO creation hitches so far (248 graphics, 402 compute). 0 of them were precached.
+[2025.10.29-14.33.04:104][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.33.04:104][ 71]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.33.04:104][ 71]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.33.04:104][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.33.04:104][ 71]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.33.04:105][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.33.04:111][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.33.04:137][ 71]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.33.04:137][ 71]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.10.29-14.33.04:137][ 71]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2025.10.29-14.33.04:139][ 71]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2025.10.29-14.33.04:144][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.33.04:147][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.29-14.33.04:174][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.10.29-14.33.11:211][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.29-14.33.11:224][537]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.33.11:279][537]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fishing] ([2] browsable assets)...
+[2025.10.29-14.33.11:280][537]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fishing.W_Fishing]
+[2025.10.29-14.33.11:280][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fishing]
+[2025.10.29-14.33.11:280][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fishing" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset" SILENT=true
+[2025.10.29-14.33.11:296][537]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fishing
+[2025.10.29-14.33.11:296][537]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fishing163680D94B2F4EEE23711BBDD7418016.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset'
+[2025.10.29-14.33.11:303][537]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.054 ms (total: 3.31 sec)
+[2025.10.29-14.33.11:361][537]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.33.11:361][537]LogContentValidation: Enabled validators:
+[2025.10.29-14.33.11:361][537]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.33.11:361][537]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.33.11:361][537]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.33.11:361][537]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.33.11:361][537]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.33.11:361][537]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.33.11:361][537]AssetCheck: /Game/WidgetBP/W_Fishing Validating asset
+[2025.10.29-14.33.12:874][607]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.33.12:879][607]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.33.12:879][607]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.33.12:880][607]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 389 us (total: 14.432 ms)
+[2025.10.29-14.33.12:880][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.33.12:880][607]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.33.12:881][607]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.33.12:881][607]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 310 us (total: 8.615 ms)
+[2025.10.29-14.33.12:881][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002109s)
+[2025.10.29-14.33.12:881][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002138s)
+[2025.10.29-14.33.12:911][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.29-14.33.12:913][607]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.33.12:914][607]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.33.12:914][607]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.33.12:914][607]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.33.12:914][607]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.33.12:915][607]LogWorldPartition: Display: WorldPartition initialize took 597 us (total: 107.146 ms)
+[2025.10.29-14.33.12:915][607]LogPlayLevel: PIE: World Init took: (0.002284s)
+[2025.10.29-14.33.12:916][607]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.10.29-14.33.12:916][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.33.12:916][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.33.12:916][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.33.12:916][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.33.12:916][607]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.33.12:916][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.33.12:916][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.33.12:916][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.33.12:916][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.33.12:916][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.33.12:916][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.33.12:918][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.33.12:940][607]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.33.12:940][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.33.12:940][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.33.12:940][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.33.12:940][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.10.29-14.33.12:940][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2025.10.29-14.33.12:943][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.10.29-14.33.12:943][607]LogInit: FAudioDevice initialized with ID 27.
+[2025.10.29-14.33.12:943][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.10.29-14.33.12:943][607]LogAudio: Display: Audio Device (ID: 27) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.33.12:944][607]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.10.29-14.33.12:946][607]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.33.12:947][607]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.33.12
+[2025.10.29-14.33.12:947][607]LogWorld: Bringing up level for play took: 0.000606
+[2025.10.29-14.33.12:949][607]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.10.29-14.33.12:954][607]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.33.12:955][607]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.33.12:955][607]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.33.12:956][607]PIE: Server logged in
+[2025.10.29-14.33.12:958][607]PIE: Play in editor total start time 0.079 seconds.
+[2025.10.29-14.33.28:164][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.33.28:164][359]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.33.28:164][359]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.33.28:164][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.33.28:164][359]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.33.28:165][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.33.28:170][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.33.28:198][359]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.33.28:198][359]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.10.29-14.33.28:198][359]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2025.10.29-14.33.28:200][359]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2025.10.29-14.33.28:203][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.33.28:207][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.29-14.33.28:233][360]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.10.29-14.33.31:839][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.33.31:930][538]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fishing] ([2] browsable assets)...
+[2025.10.29-14.33.31:931][538]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fishing.W_Fishing]
+[2025.10.29-14.33.31:931][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fishing]
+[2025.10.29-14.33.31:931][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fishing" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset" SILENT=true
+[2025.10.29-14.33.31:948][538]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fishing
+[2025.10.29-14.33.31:948][538]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fishing767CBC55469DB4CC5E9ABFBD510D7663.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fishing.uasset'
+[2025.10.29-14.33.31:956][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.786 ms (total: 3.43 sec)
+[2025.10.29-14.33.31:995][538]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.33.31:995][538]LogContentValidation: Enabled validators:
+[2025.10.29-14.33.31:995][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.33.31:995][538]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.33.31:995][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.33.31:995][538]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.33.31:996][538]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.33.31:996][538]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.33.31:996][538]AssetCheck: /Game/WidgetBP/W_Fishing Validating asset
+[2025.10.29-14.33.33:166][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.29-14.33.35:101][688]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.33.35:106][688]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.33.35:106][688]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.33.35:106][688]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 392 us (total: 14.824 ms)
+[2025.10.29-14.33.35:106][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.33.35:106][688]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.33.35:108][688]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.33.35:108][688]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 318 us (total: 8.933 ms)
+[2025.10.29-14.33.35:108][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002182s)
+[2025.10.29-14.33.35:108][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002211s)
+[2025.10.29-14.33.35:139][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.29-14.33.35:141][688]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.33.35:142][688]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.33.35:142][688]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.33.35:142][688]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.33.35:142][688]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.33.35:143][688]LogWorldPartition: Display: WorldPartition initialize took 594 us (total: 107.740 ms)
+[2025.10.29-14.33.35:143][688]LogPlayLevel: PIE: World Init took: (0.002341s)
+[2025.10.29-14.33.35:143][688]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.10.29-14.33.35:144][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.33.35:144][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.33.35:144][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.33.35:144][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.33.35:144][688]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.33.35:144][688]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.33.35:144][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.33.35:144][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.33.35:144][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.33.35:144][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.33.35:144][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.33.35:146][688]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.33.35:167][688]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.33.35:168][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.33.35:168][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.33.35:168][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.33.35:168][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.10.29-14.33.35:168][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.10.29-14.33.35:171][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.10.29-14.33.35:171][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.10.29-14.33.35:171][688]LogInit: FAudioDevice initialized with ID 28.
+[2025.10.29-14.33.35:171][688]LogAudio: Display: Audio Device (ID: 28) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.33.35:171][688]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.10.29-14.33.35:174][688]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.33.35:174][688]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.33.35
+[2025.10.29-14.33.35:175][688]LogWorld: Bringing up level for play took: 0.000626
+[2025.10.29-14.33.35:177][688]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.10.29-14.33.35:181][688]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.33.35:183][688]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.33.35:183][688]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.33.35:184][688]PIE: Server logged in
+[2025.10.29-14.33.35:186][688]PIE: Play in editor total start time 0.08 seconds.
+[2025.10.29-14.33.45:924][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.33.45:924][221]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.33.45:924][221]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.33.45:924][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.33.45:924][221]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.33.45:925][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.33.45:930][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.33.45:957][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.33.45:957][221]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.10.29-14.33.45:957][221]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=4
+[2025.10.29-14.33.45:959][221]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=2
+[2025.10.29-14.33.45:966][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.29-14.33.45:992][222]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.10.29-14.35.18:940][992]LogAutomationController: Ignoring very large delta of 2.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.29-14.35.20:625][ 78]LogSlate: Window 'Details' being destroyed
+[2025.10.29-14.35.20:633][ 78]LogSlate: Window 'Details' being destroyed
+[2025.10.29-14.35.40:172][489]LogSlate: Window 'Details' being destroyed
+[2025.10.29-14.35.40:177][489]LogSlate: Window 'Details' being destroyed
+[2025.10.29-14.37.52:535][104]LogBlueprint: Error: [AssetLog] D:\Profiles\gh9670\Documents\GitHub\PenguinFishing\Content\WidgetBP\W_Fish.uasset: [Compiler] This blueprint (self) is not a CanvasPanelSlot, therefore ' Target ' must have a connection.
+[2025.10.29-14.37.52:568][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.29-14.37.52:588][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.37.52:648][104]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.37.52:650][104]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.37.52:650][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.37.52:650][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.37.52:666][104]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.37.52:666][104]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_FishB8D5A9B648B1884BE279C98E09B08DD1.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.37.52:674][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.333 ms (total: 3.51 sec)
+[2025.10.29-14.37.52:714][104]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.37.52:714][104]LogContentValidation: Enabled validators:
+[2025.10.29-14.37.52:714][104]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.37.52:714][104]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.37.52:714][104]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.37.52:714][104]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.37.52:714][104]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.37.52:714][104]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.37.52:714][104]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.38.28:512][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.29-14.38.28:526][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.38.28:564][640]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.38.28:566][640]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.38.28:566][640]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.38.28:566][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.38.28:579][640]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.38.28:580][640]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_FishE87137A944DBC0890A54BE97227531B3.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.38.28:589][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.649 ms (total: 3.57 sec)
+[2025.10.29-14.38.28:649][640]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.38.28:649][640]LogContentValidation: Enabled validators:
+[2025.10.29-14.38.28:649][640]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.38.28:649][640]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.38.28:649][640]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.38.28:649][640]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.38.28:649][640]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.38.28:649][640]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.38.28:650][640]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.38.30:644][725]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.38.30:651][725]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.38.30:651][725]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.38.30:652][725]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 385 us (total: 15.209 ms)
+[2025.10.29-14.38.30:652][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.38.30:652][725]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.38.30:654][725]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.38.30:655][725]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 316 us (total: 9.249 ms)
+[2025.10.29-14.38.30:655][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002151s)
+[2025.10.29-14.38.30:655][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002180s)
+[2025.10.29-14.38.30:683][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.29-14.38.30:685][725]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.38.30:687][725]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.38.30:687][725]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.38.30:687][725]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.38.30:687][725]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.38.30:687][725]LogWorldPartition: Display: WorldPartition initialize took 605 us (total: 108.346 ms)
+[2025.10.29-14.38.30:688][725]LogPlayLevel: PIE: World Init took: (0.002391s)
+[2025.10.29-14.38.30:688][725]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.10.29-14.38.30:688][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.38.30:688][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.38.30:688][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.38.30:688][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.38.30:689][725]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.38.30:689][725]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.38.30:689][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.38.30:689][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.38.30:689][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.38.30:689][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.38.30:689][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.38.30:691][725]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.38.30:715][725]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.38.30:716][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.38.30:716][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.38.30:716][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.38.30:716][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.10.29-14.38.30:716][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2025.10.29-14.38.30:719][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.10.29-14.38.30:719][725]LogInit: FAudioDevice initialized with ID 29.
+[2025.10.29-14.38.30:719][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.10.29-14.38.30:719][725]LogAudio: Display: Audio Device (ID: 29) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.38.30:719][725]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.10.29-14.38.30:722][725]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.38.30:723][725]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.38.30
+[2025.10.29-14.38.30:723][725]LogWorld: Bringing up level for play took: 0.000648
+[2025.10.29-14.38.30:726][725]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.10.29-14.38.30:731][725]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.38.30:732][725]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.38.30:732][725]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.38.30:732][725]PIE: Server logged in
+[2025.10.29-14.38.30:734][725]PIE: Play in editor total start time 0.083 seconds.
+[2025.10.29-14.38.30:795][726]LogPSOHitching: Encountered 700 PSO creation hitches so far (266 graphics, 434 compute). 0 of them were precached.
+[2025.10.29-14.38.42:415][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.38.42:415][290]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.38.42:415][290]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.38.42:416][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.38.42:416][290]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.38.42:417][290]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.38.42:422][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.38.42:447][290]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.38.42:447][290]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.10.29-14.38.42:447][290]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=4
+[2025.10.29-14.38.42:449][290]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=2
+[2025.10.29-14.38.42:454][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.38.42:457][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.29-14.38.42:483][291]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.10.29-14.40.06:991][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.10.29-14.40.07:006][605]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.40.07:066][605]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.40.07:068][605]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.40.07:068][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.40.07:068][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.40.07:083][605]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.40.07:083][605]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fish0E1B18C0468BC711C205FD90789BDD95.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.40.07:091][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.755 ms (total: 3.66 sec)
+[2025.10.29-14.40.07:148][605]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.40.07:148][605]LogContentValidation: Enabled validators:
+[2025.10.29-14.40.07:148][605]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.40.07:148][605]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.40.07:148][605]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.40.07:148][605]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.40.07:148][605]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.40.07:148][605]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.40.07:148][605]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.40.09:759][731]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.40.09:767][731]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.40.09:767][731]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.40.09:768][731]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 441 us (total: 15.651 ms)
+[2025.10.29-14.40.09:768][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.40.09:768][731]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.40.09:770][731]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.40.09:770][731]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 309 us (total: 9.559 ms)
+[2025.10.29-14.40.09:770][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002223s)
+[2025.10.29-14.40.09:770][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002256s)
+[2025.10.29-14.40.09:799][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.29-14.40.09:801][731]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.40.09:803][731]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.40.09:803][731]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.40.09:803][731]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.40.09:803][731]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.40.09:803][731]LogWorldPartition: Display: WorldPartition initialize took 592 us (total: 108.938 ms)
+[2025.10.29-14.40.09:803][731]LogPlayLevel: PIE: World Init took: (0.002345s)
+[2025.10.29-14.40.09:804][731]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.10.29-14.40.09:804][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.40.09:804][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.40.09:804][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.40.09:804][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.40.09:804][731]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.40.09:804][731]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.40.09:804][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.40.09:804][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.40.09:804][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.40.09:804][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.40.09:804][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.40.09:807][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.40.09:828][731]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.40.09:828][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.40.09:828][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.40.09:828][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.40.09:829][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.10.29-14.40.09:829][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.10.29-14.40.09:831][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.10.29-14.40.09:831][731]LogInit: FAudioDevice initialized with ID 30.
+[2025.10.29-14.40.09:831][731]LogAudio: Display: Audio Device (ID: 30) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.40.09:831][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.10.29-14.40.09:831][731]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.10.29-14.40.09:835][731]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.40.09:836][731]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.40.09
+[2025.10.29-14.40.09:836][731]LogWorld: Bringing up level for play took: 0.000707
+[2025.10.29-14.40.09:838][731]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.10.29-14.40.09:843][731]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.40.09:844][731]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.40.09:844][731]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.40.09:845][731]PIE: Server logged in
+[2025.10.29-14.40.09:846][731]PIE: Play in editor total start time 0.08 seconds.
+[2025.10.29-14.40.36:686][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.40.36:686][ 82]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.40.36:686][ 82]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.40.36:687][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.40.36:687][ 82]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.40.36:688][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.40.36:694][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.40.36:721][ 82]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.40.36:721][ 82]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.10.29-14.40.36:721][ 82]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30, StreamState=4
+[2025.10.29-14.40.36:723][ 82]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30, StreamState=2
+[2025.10.29-14.40.36:727][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.40.36:730][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.29-14.40.36:756][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.10.29-14.40.49:427][785]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/5.6/Engine/Source/Runtime/UMG/Private/UserWidget.cpp 
+[2025.10.29-14.40.49:578][785]LogWindows: Launch application code for C:/Program Files/Epic Games/5.6/Engine/Source/Runtime/UMG/Private/UserWidget.cpp : 42
+[2025.10.29-14.40.49:578][785]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:585][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:586][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:587][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:588][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:589][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:590][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:592][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:593][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:597][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:598][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:602][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:613][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:658][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:722][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:722][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:730][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:731][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:732][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:733][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:734][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:735][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:736][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:737][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:737][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:738][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:742][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:743][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:747][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.40.49:758][785]LogVSAccessor: Warning: Couldn't access module table
+[2025.10.29-14.41.11:599][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.29-14.41.11:614][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.41.11:664][704]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.41.11:666][704]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.41.11:666][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.41.11:666][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.41.11:681][704]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.41.11:681][704]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_FishBFB17B6642C0A635E0EE0BAA35FC26BC.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.41.11:689][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.313 ms (total: 3.73 sec)
+[2025.10.29-14.41.11:748][704]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.41.11:748][704]LogContentValidation: Enabled validators:
+[2025.10.29-14.41.11:749][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.41.11:749][704]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.41.11:749][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.41.11:749][704]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.41.11:749][704]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.41.11:749][704]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.41.11:749][704]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.41.13:141][773]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.41.13:147][773]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.41.13:147][773]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.41.13:148][773]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 377 us (total: 16.029 ms)
+[2025.10.29-14.41.13:148][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.41.13:148][773]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.41.13:150][773]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.41.13:150][773]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 309 us (total: 9.868 ms)
+[2025.10.29-14.41.13:150][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002123s)
+[2025.10.29-14.41.13:150][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002152s)
+[2025.10.29-14.41.13:176][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.29-14.41.13:178][773]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.41.13:180][773]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.41.13:180][773]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.41.13:180][773]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.41.13:180][773]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.41.13:180][773]LogWorldPartition: Display: WorldPartition initialize took 594 us (total: 109.533 ms)
+[2025.10.29-14.41.13:180][773]LogPlayLevel: PIE: World Init took: (0.002311s)
+[2025.10.29-14.41.13:181][773]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2025.10.29-14.41.13:181][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.41.13:181][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.41.13:181][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.41.13:181][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.41.13:181][773]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.41.13:181][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.41.13:181][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.41.13:182][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.41.13:182][773]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.41.13:182][773]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.41.13:182][773]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.41.13:184][773]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.41.13:205][773]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.41.13:205][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.41.13:205][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.41.13:205][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.41.13:206][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2025.10.29-14.41.13:206][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2025.10.29-14.41.13:209][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2025.10.29-14.41.13:209][773]LogInit: FAudioDevice initialized with ID 31.
+[2025.10.29-14.41.13:209][773]LogAudio: Display: Audio Device (ID: 31) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.41.13:209][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2025.10.29-14.41.13:209][773]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2025.10.29-14.41.13:212][773]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.41.13:213][773]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.41.13
+[2025.10.29-14.41.13:213][773]LogWorld: Bringing up level for play took: 0.000621
+[2025.10.29-14.41.13:215][773]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.10.29-14.41.13:220][773]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.41.13:220][773]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.41.13:220][773]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.41.13:221][773]PIE: Server logged in
+[2025.10.29-14.41.13:223][773]PIE: Play in editor total start time 0.077 seconds.
+[2025.10.29-14.41.17:034][959]LogBlueprintUserMessages: [W_Fish_C_0] 1907.0
+[2025.10.29-14.41.20:581][136]LogBlueprintUserMessages: [W_Fish_C_1] 1907.0
+[2025.10.29-14.41.23:485][281]LogBlueprintUserMessages: [W_Fish_C_2] 1907.0
+[2025.10.29-14.41.26:007][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.41.26:007][411]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.41.26:007][411]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.41.26:007][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.41.26:007][411]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.41.26:008][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.41.26:014][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.41.26:041][411]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.41.26:041][411]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2025.10.29-14.41.26:041][411]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=4
+[2025.10.29-14.41.26:043][411]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=2
+[2025.10.29-14.41.26:047][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.41.26:049][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.10.29-14.41.26:087][413]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.10.29-14.42.24:659][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.10.29-14.42.24:674][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.42.24:732][768]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.42.24:734][768]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.42.24:734][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.42.24:734][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.42.24:748][768]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.42.24:749][768]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fish8AABDB9841B906C3138D6EAB8BD195B6.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.42.24:756][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.167 ms (total: 3.81 sec)
+[2025.10.29-14.42.24:799][768]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.42.24:799][768]LogContentValidation: Enabled validators:
+[2025.10.29-14.42.24:799][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.42.24:799][768]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.42.24:799][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.42.24:799][768]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.42.24:799][768]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.42.24:799][768]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.42.24:799][768]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.43.19:503][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.29-14.43.19:518][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.43.19:566][410]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.43.19:567][410]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.43.19:567][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.43.19:567][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.43.19:581][410]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.43.19:581][410]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fish3D19B3904D208B1B07E8D5BBCFF188BC.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.43.19:590][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.265 ms (total: 3.89 sec)
+[2025.10.29-14.43.19:632][410]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.43.19:632][410]LogContentValidation: Enabled validators:
+[2025.10.29-14.43.19:632][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.43.19:632][410]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.43.19:632][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.43.19:632][410]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.43.19:632][410]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.43.19:632][410]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.43.19:633][410]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.43.20:566][449]LogPSOHitching: Encountered 750 PSO creation hitches so far (283 graphics, 467 compute). 0 of them were precached.
+[2025.10.29-14.43.21:187][475]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.43.21:193][475]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.43.21:193][475]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.43.21:193][475]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 395 us (total: 16.424 ms)
+[2025.10.29-14.43.21:193][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.43.21:193][475]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.43.21:195][475]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.43.21:195][475]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 316 us (total: 10.185 ms)
+[2025.10.29-14.43.21:195][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002182s)
+[2025.10.29-14.43.21:195][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002212s)
+[2025.10.29-14.43.21:224][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.10.29-14.43.21:225][475]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.43.21:227][475]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.43.21:227][475]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.43.21:227][475]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.43.21:227][475]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.43.21:228][475]LogWorldPartition: Display: WorldPartition initialize took 572 us (total: 110.106 ms)
+[2025.10.29-14.43.21:228][475]LogPlayLevel: PIE: World Init took: (0.002284s)
+[2025.10.29-14.43.21:228][475]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2025.10.29-14.43.21:228][475]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.43.21:229][475]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.43.21:229][475]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.43.21:229][475]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.43.21:229][475]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.43.21:229][475]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.43.21:229][475]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.43.21:229][475]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.43.21:229][475]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.43.21:229][475]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.43.21:229][475]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.43.21:231][475]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.43.21:252][475]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.43.21:253][475]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.43.21:253][475]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.43.21:253][475]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.43.21:253][475]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2025.10.29-14.43.21:253][475]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2025.10.29-14.43.21:256][475]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2025.10.29-14.43.21:256][475]LogInit: FAudioDevice initialized with ID 32.
+[2025.10.29-14.43.21:256][475]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2025.10.29-14.43.21:256][475]LogAudio: Display: Audio Device (ID: 32) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.43.21:256][475]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2025.10.29-14.43.21:260][475]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.43.21:260][475]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.43.21
+[2025.10.29-14.43.21:261][475]LogWorld: Bringing up level for play took: 0.000624
+[2025.10.29-14.43.21:263][475]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.10.29-14.43.21:267][475]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.43.21:268][475]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.43.21:268][475]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.43.21:269][475]PIE: Server logged in
+[2025.10.29-14.43.21:271][475]PIE: Play in editor total start time 0.078 seconds.
+[2025.10.29-14.43.21:523][476]LogPSOHitching: Encountered 800 PSO creation hitches so far (301 graphics, 499 compute). 0 of them were precached.
+[2025.10.29-14.43.57:348][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.43.57:348][271]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.43.57:348][271]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.43.57:348][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.43.57:348][271]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.43.57:349][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.43.57:354][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.43.57:379][271]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.43.57:379][271]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2025.10.29-14.43.57:379][271]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=4
+[2025.10.29-14.43.57:382][271]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=2
+[2025.10.29-14.43.57:386][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.43.57:389][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.10.29-14.43.57:416][272]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.10.29-14.45.09:884][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.29-14.45.09:899][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.45.09:950][  3]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.45.09:952][  3]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.45.09:952][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.45.09:952][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.45.09:967][  3]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.45.09:967][  3]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fish0A2491FF4B362359FC8B6D93628B54BD.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.45.09:975][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.004 ms (total: 3.96 sec)
+[2025.10.29-14.45.10:033][  3]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.45.10:033][  3]LogContentValidation: Enabled validators:
+[2025.10.29-14.45.10:033][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.45.10:033][  3]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.45.10:033][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.45.10:033][  3]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.45.10:033][  3]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.45.10:033][  3]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.45.10:033][  3]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.45.12:689][133]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.45.12:695][133]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.45.12:695][133]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.45.12:695][133]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 433 us (total: 16.857 ms)
+[2025.10.29-14.45.12:695][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.45.12:695][133]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.45.12:698][133]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.45.12:698][133]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 313 us (total: 10.498 ms)
+[2025.10.29-14.45.12:698][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002221s)
+[2025.10.29-14.45.12:698][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002252s)
+[2025.10.29-14.45.12:727][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.29-14.45.12:729][133]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.45.12:731][133]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.45.12:731][133]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.45.12:731][133]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.45.12:731][133]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.45.12:731][133]LogWorldPartition: Display: WorldPartition initialize took 604 us (total: 110.711 ms)
+[2025.10.29-14.45.12:732][133]LogPlayLevel: PIE: World Init took: (0.002490s)
+[2025.10.29-14.45.12:733][133]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2025.10.29-14.45.12:733][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.45.12:733][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.45.12:733][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.45.12:733][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.45.12:733][133]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.45.12:733][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.45.12:733][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.45.12:733][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.45.12:733][133]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.45.12:733][133]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.45.12:733][133]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.45.12:735][133]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.45.12:756][133]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.45.12:756][133]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.45.12:756][133]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.45.12:756][133]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.45.12:757][133]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2025.10.29-14.45.12:757][133]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2025.10.29-14.45.12:760][133]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2025.10.29-14.45.12:760][133]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2025.10.29-14.45.12:760][133]LogInit: FAudioDevice initialized with ID 33.
+[2025.10.29-14.45.12:760][133]LogAudio: Display: Audio Device (ID: 33) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.45.12:760][133]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2025.10.29-14.45.12:763][133]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.45.12:764][133]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.45.12
+[2025.10.29-14.45.12:764][133]LogWorld: Bringing up level for play took: 0.000705
+[2025.10.29-14.45.12:767][133]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2025.10.29-14.45.12:771][133]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.45.12:772][133]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.45.12:772][133]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.45.12:773][133]PIE: Server logged in
+[2025.10.29-14.45.12:774][133]PIE: Play in editor total start time 0.08 seconds.
+[2025.10.29-14.45.33:607][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.45.33:607][169]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.45.33:607][169]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.45.33:607][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.45.33:607][169]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.45.33:609][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.45.33:615][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.45.33:640][169]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.45.33:640][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2025.10.29-14.45.33:640][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=4
+[2025.10.29-14.45.33:642][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=2
+[2025.10.29-14.45.33:646][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.45.33:648][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.29-14.45.33:677][170]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2025.10.29-14.45.36:090][292]LogEditorTransaction: Undo Create Pin Link
+[2025.10.29-14.45.36:668][305]LogEditorTransaction: Undo Move Nodes
+[2025.10.29-14.45.37:083][325]LogEditorTransaction: Undo Move Node
+[2025.10.29-14.45.37:459][343]LogEditorTransaction: Undo Add Node
+[2025.10.29-14.45.37:794][359]LogEditorTransaction: Undo Add Node
+[2025.10.29-14.45.38:232][380]LogEditorTransaction: Undo Move Node
+[2025.10.29-14.45.38:692][402]LogEditorTransaction: Undo Move Node
+[2025.10.29-14.45.39:068][420]LogEditorTransaction: Undo Break Pin Links
+[2025.10.29-14.45.39:508][441]LogEditorTransaction: Undo Create Pin Link
+[2025.10.29-14.45.39:874][458]LogEditorTransaction: Undo Create Pin Link
+[2025.10.29-14.45.43:423][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.29-14.45.43:440][690]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.45.43:501][690]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.45.43:502][690]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.45.43:502][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.45.43:502][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.45.43:518][690]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.45.43:518][690]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fish31A1FE154F1F0AE3987F97B927A71912.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.45.43:527][690]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.726 ms (total: 4.05 sec)
+[2025.10.29-14.45.43:582][690]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.45.43:582][690]LogContentValidation: Enabled validators:
+[2025.10.29-14.45.43:582][690]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.45.43:582][690]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.45.43:582][690]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.45.43:582][690]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.45.43:582][690]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.45.43:582][690]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.45.43:583][690]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.46.15:080][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.29-14.46.15:095][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-14.46.15:135][353]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/WidgetBP/W_Fish] ([2] browsable assets)...
+[2025.10.29-14.46.15:136][353]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/WidgetBP/W_Fish.W_Fish]
+[2025.10.29-14.46.15:136][353]OBJ SavePackage: Finished generating thumbnails for package [/Game/WidgetBP/W_Fish]
+[2025.10.29-14.46.15:136][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WidgetBP/W_Fish" FILE="D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset" SILENT=true
+[2025.10.29-14.46.15:150][353]LogSavePackage: Moving output files for package: /Game/WidgetBP/W_Fish
+[2025.10.29-14.46.15:151][353]LogSavePackage: Moving 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Saved/W_Fish16D96D534A4F4926533F5582A6C200ED.tmp' to 'D:/Profiles/gh9670/Documents/GitHub/PenguinFishing/Content/WidgetBP/W_Fish.uasset'
+[2025.10.29-14.46.15:159][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.735 ms (total: 4.11 sec)
+[2025.10.29-14.46.15:199][353]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-14.46.15:199][353]LogContentValidation: Enabled validators:
+[2025.10.29-14.46.15:199][353]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-14.46.15:199][353]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-14.46.15:199][353]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-14.46.15:199][353]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-14.46.15:200][353]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-14.46.15:200][353]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-14.46.15:200][353]AssetCheck: /Game/WidgetBP/W_Fish Validating asset
+[2025.10.29-14.46.16:533][417]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-14.46.16:539][417]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.29-14.46.16:539][417]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.10.29-14.46.16:539][417]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 390 us (total: 17.248 ms)
+[2025.10.29-14.46.16:539][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-14.46.16:539][417]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.46.16:541][417]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.29-14.46.16:541][417]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 351 us (total: 10.849 ms)
+[2025.10.29-14.46.16:542][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002254s)
+[2025.10.29-14.46.16:542][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002283s)
+[2025.10.29-14.46.16:569][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.29-14.46.16:571][417]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.10.29-14.46.16:572][417]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.29-14.46.16:572][417]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.29-14.46.16:572][417]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.29-14.46.16:572][417]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.29-14.46.16:573][417]LogWorldPartition: Display: WorldPartition initialize took 636 us (total: 111.347 ms)
+[2025.10.29-14.46.16:573][417]LogPlayLevel: PIE: World Init took: (0.002327s)
+[2025.10.29-14.46.16:574][417]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2025.10.29-14.46.16:574][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-14.46.16:574][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-14.46.16:574][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-14.46.16:574][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-14.46.16:574][417]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-14.46.16:574][417]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-14.46.16:574][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-14.46.16:574][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-14.46.16:574][417]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-14.46.16:574][417]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-14.46.16:574][417]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-14.46.16:576][417]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-14.46.16:597][417]LogAudioMixer: Display: Using Audio Hardware Device Alienware2210 (NVIDIA High Definition Audio)
+[2025.10.29-14.46.16:597][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-14.46.16:597][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-14.46.16:597][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-14.46.16:598][417]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2025.10.29-14.46.16:598][417]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2025.10.29-14.46.16:600][417]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2025.10.29-14.46.16:600][417]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2025.10.29-14.46.16:600][417]LogInit: FAudioDevice initialized with ID 34.
+[2025.10.29-14.46.16:600][417]LogAudio: Display: Audio Device (ID: 34) registered with world 'Lvl_FirstPerson'.
+[2025.10.29-14.46.16:600][417]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2025.10.29-14.46.16:604][417]LogLoad: Game class is 'GM_FirstPerson_C'
+[2025.10.29-14.46.16:605][417]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.10.29-10.46.16
+[2025.10.29-14.46.16:605][417]LogWorld: Bringing up level for play took: 0.000641
+[2025.10.29-14.46.16:607][417]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2025.10.29-14.46.16:611][417]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2025.10.29-14.46.16:612][417]LogScript: Warning: Script Msg: The widget 'W_Fishing_C_0' was already added to the screen.
+[2025.10.29-14.46.16:612][417]LogScript: Warning: Script Msg called by: HUD_Default_C /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.HUD_Default_C_0
+[2025.10.29-14.46.16:613][417]PIE: Server logged in
+[2025.10.29-14.46.16:615][417]PIE: Play in editor total start time 0.077 seconds.
+[2025.10.29-14.46.30:238][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.46.30:238][101]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.10.29-14.46.30:238][101]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-14.46.30:239][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.46.30:239][101]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.29-14.46.30:240][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-14.46.30:245][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-14.46.30:270][101]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.29-14.46.30:270][101]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2025.10.29-14.46.30:270][101]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2025.10.29-14.46.30:272][101]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2025.10.29-14.46.30:276][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-14.46.30:278][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.10.29-14.46.30:305][102]LogPlayLevel: Display: Destroying online subsystem :Context_39
